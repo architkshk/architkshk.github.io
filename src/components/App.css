@@ -1,9 +1,10 @@
 * {
   margin: 0;
-  padding: 0;/*
+  padding: 0; /*
   font-size: 10px;*/
 }
-body{/*
+body {
+  /*
   font-size: 100%;*/
 }
 .App {
@@ -26,7 +27,7 @@ body{/*
 .title {
   margin-left: 2rem;
   padding-bottom: 0.2rem;
-  border-bottom: 0.2rem solid #D9B08C;
+  border-bottom: 0.2rem solid #d9b08c;
 }
 
 .toggle {
@@ -44,12 +45,12 @@ body{/*
 
 .name {
   font-size: 60px;
-  color: #2C3531;
+  color: #2c3531;
   line-height: 100px;
 }
 .about {
   font-size: 30px;
-  color: #D9B08C;
+  color: #d9b08c;
   margin-bottom: 30px;
 }
 .description {
@@ -69,15 +70,15 @@ body{/*
   display: block;
   font-size: 20px;
   width: 150px;
-  background-color: #D9B08C;
-  color: #FFF;
+  background-color: #d9b08c;
+  color: #fff;
   text-align: center;
   line-height: 50px;
   transition: all 0.5s;
 }
 .resume-btn:hover {
-  color: #2C3531;
-  background-color: #FFCB9A;
+  color: #2c3531;
+  background-color: #ffcb9a;
 }
 .projects {
   display: flex;
@@ -96,7 +97,7 @@ body{/*
 }
 
 .project-card {
-  background: #D1E8E2;
+  background: #d1e8e2;
   transition: all 0.3s;
   width: 300px;
   height: 412px;
@@ -121,7 +122,7 @@ body{/*
 }
 .project-card-desc {
   font-size: 14px;
-  color: #FFCB9A; 
+  color: #ffcb9a;
   text-overflow: ellipsis;
   white-space: pre-wrap;
 }
@@ -134,8 +135,8 @@ body{/*
 }
 .project-card-link:hover {
   width: 70px;
-  background: #D9B08C;
-  color: #2C3531;
+  background: #d9b08c;
+  color: #2c3531;
 }
 
 .skills {
@@ -144,11 +145,11 @@ body{/*
   flex-direction: column;
   padding: 3rem;
 }
-.skills .more-text{
+.skills .more-text {
   align-self: flex-end;
-  color: #116466  ;
+  color: #116466;
   margin-right: 100px;
-  margin-top: 20px; 
+  margin-top: 20px;
   font-size: 25px;
 }
 .skills .content {
@@ -158,8 +159,8 @@ body{/*
 }
 
 .skill-card-text {
-  text-overflow: ellipsis; 
-  white-space: nowrap; 
+  text-overflow: ellipsis;
+  white-space: nowrap;
   overflow: hidden;
 }
 .skill-card {
@@ -181,19 +182,19 @@ body{/*
 
 .skill-card:hover {
   background: #116466;
-  color: #D1E8E2;
+  color: #d1e8e2;
 }
 .main {
   display: flex;
   flex-direction: column;
   flex: 5;
-  background: #FCFCFC;
+  background: #fcfcfc;
 }
 
 .sidebar {
   display: flex;
   flex-direction: column;
-  background: #2C3531;
+  background: #2c3531;
   flex-basis: 200px;
   flex-grow: 0;
   flex-shrink: 0;
@@ -220,7 +221,7 @@ body{/*
   max-width: 100px;
   width: 100%;
   border-radius: 50%;
-  border: 3px solid #FFCB9A;
+  border: 3px solid #ffcb9a;
   height: auto;
 }
 
@@ -253,7 +254,7 @@ body{/*
   text-align: left;
   font-size: 1.1rem;
   display: block;
-  color: #D1E8E2;
+  color: #d1e8e2;
   line-height: 3.1rem;
   margin: 1.3rem 0.5rem;
   padding-left: 3.5rem;
@@ -264,13 +265,13 @@ body{/*
 
 .nav-link:hover {
   background: rgba(0, 0, 0, 0.144);
-  color: #FFCB9A
+  color: #ffcb9a;
 }
 .nav-link.active {
-  color: #D9B08C;
+  color: #d9b08c;
   padding-left: 2.6rem;
   font-weight: 700;
-  border-left: 0.9rem solid #FFCB9A;
+  border-left: 0.9rem solid #ffcb9a;
 }
 .close {
   display: none;
@@ -289,7 +290,7 @@ body{/*
 
   .toggle {
     display: block;
-    color: #D9B08C;
+    color: #d9b08c;
     margin: 20px;
   }
 
@@ -314,7 +315,7 @@ body{/*
     z-index: 100;
   }
 }
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 425px) {
   .project-card {
     margin: 20px 5px;
   }
