@@ -7,13 +7,14 @@ const Skills = () => {
     { name: "HTML", source: "assets/html.svg" },
     { name: "CSS", source: "assets/css.svg" },
     { name: "JavaScript", source: "assets/js.png" },
+    { name: "DS and Algo", source: "assets/dsa.jpg" },
     { name: "jQuery", source: "assets/jquery.png" },
     { name: "Node JS", source: "assets/nodejs.png" },
+    { name: "React", source: "assets/react.png" },
     { name: "MongoDB", source: "assets/mongodb.png" },
-    { name: "Handlebars.js", source: "assets/handlebar.png" },
     { name: "Bootstrap", source: "assets/bootstrap.png" },
-    { name: "Redux", source: "assets/redux.png" },
-    { name: "Sass", source: "assets/sass.svg" }
+    { name: "Sass", source: "assets/sass.svg" },
+    { name: "Handlebars.js", source: "assets/handlebar.png" }
   ];
   return (
     <div className="main-inner">

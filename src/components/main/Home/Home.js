@@ -7,12 +7,15 @@ const Home = () => {
       <Header title="About Me" />
       <div className="Home">
         <div className="content">
-          <div className="name"> archit kaushik</div>
+          <div className="name">
+            <b>archit</b> kaushik<span className="dot">.</span>
+          </div>
           <div className="about"> Web Developer</div>
           <div className="description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            maximus purus non leo posuere fringilla. Maecenas commodo libero sed
-            tortor
+            I am passionate about building softwares that improves the lives of
+            those around me. I love JavaScript and Oper Source. Currently
+            learning by building thnigs. In my free time I dive into competitive
+            programming.
           </div>
           <div className="resume-btn"> Resume</div>
         </div>

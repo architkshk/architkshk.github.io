@@ -37,6 +37,7 @@ body {
   display: flex;
   flex: 5;
   padding: 3rem;
+  overflow: auto;
 }
 .content {
   color: #fff;
@@ -56,16 +57,19 @@ body {
 .description {
   min-width: 300px;
   overflow: hidden;
-  width: 50%;
+  width: 60%;
   font-size: 22px;
   line-height: 35px;
   color: rgb(122, 122, 122);
   word-wrap: break-word;
-  word-break: break-all;
   line-break: normal;
   margin-bottom: 40px;
 }
-
+.dot {
+  font-weight: 900;
+  font-size: 60px;
+  color: #d9b08c;
+}
 .resume-btn {
   display: block;
   font-size: 20px;
@@ -156,6 +160,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   overflow: auto;
+  max-height: 55vh;
 }
 
 .skill-card-text {
