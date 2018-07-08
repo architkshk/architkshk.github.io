@@ -17,7 +17,14 @@ const Home = () => {
             learning by building thnigs. In my free time I dive into competitive
             programming.
           </div>
-          <div className="resume-btn"> Resume</div>
+          <div className="resume-btn">
+            <a
+              href="https://drive.google.com/file/d/1kP8BqNPn-PvkikmLW7th4U5GoGN0bmBD/view?usp=sharing"
+              target="_blank"
+            >
+              Resume
+            </a>
+          </div>
         </div>
       </div>
     </div>
