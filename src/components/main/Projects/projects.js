@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectCard from "./project-card";
 import Header from "../Header/header";
+import projects from "./projects-details";
 
 const Projects = () => {
   return (
@@ -8,11 +9,9 @@ const Projects = () => {
       <Header title="Projects" />
       <div className="projects">
         <div className="content">
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
-          <ProjectCard />
+          {projects.map((s, a) => {
+            return <ProjectCard key={a} project={s} />;
+          })}
         </div>
       </div>
     </div>
