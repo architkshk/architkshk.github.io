@@ -108,7 +108,6 @@ a {
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 450px;
   overflow: auto;
 }
 
@@ -374,4 +373,37 @@ a {
   .projects {
     padding: 10px 0;
   }
+}
+
+
+.designs {
+  display: flex;
+  flex: 6 6;
+  padding: 15px;
+  overflow: hidden;
+}
+
+
+.designs .content {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.design-card {
+  background: #d1e8e2;
+  transition: all 0.3s;
+  max-width: 40%;
+  height: fit-content;
+  text-align: center;
+  margin: 20px;
+  box-shadow: 0 20px 57px 0 rgba(51, 51, 51, 0.1);
+}
+.design-card-img {
+  height: auto;
+  width: auto;
+  max-width: 100%;
 }

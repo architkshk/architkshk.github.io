@@ -34,20 +34,30 @@ class Sidebar extends Component {
               <NavLink
                 exact
                 activeClassName="active"
-                to="/skills"
+                to="/projects"
                 className="nav-link"
               >
-                Skills
+                Projects
               </NavLink>
             </li>
             <li onClick={this.toggleSidebar}>
               <NavLink
                 exact
                 activeClassName="active"
-                to="/projects"
+                to="/designs"
                 className="nav-link"
               >
-                Projects
+                Designs
+              </NavLink>
+            </li>
+            <li onClick={this.toggleSidebar}>
+              <NavLink
+                exact
+                activeClassName="active"
+                to="/skills"
+                className="nav-link"
+              >
+                Skills
               </NavLink>
             </li>
             {/* <li>
